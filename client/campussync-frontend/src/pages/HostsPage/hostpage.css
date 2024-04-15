@@ -1,0 +1,11 @@
+.hostpage-container {
+  padding: 50px 2%;
+}
+
+.hostspage-hosts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2%;
+}

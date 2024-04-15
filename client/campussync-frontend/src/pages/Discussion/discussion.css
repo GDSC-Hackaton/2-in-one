@@ -1,0 +1,53 @@
+.discussion-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f1f1;
+
+}
+.discussion-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    
+}
+
+.grid-column {
+    margin:20px;
+}
+.search-input {
+    width: 80%;
+    padding:10px;
+    outline: none;
+    border-radius: 25px;
+}
+.search-btn,.add-question {
+    padding:10px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.question-card {
+    width: 100%;
+    margin-top:10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(220, 220, 220);
+}
+.q-creator {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:10px;
+    object-fit: cover;
+}
+.q-head {
+  display: flex;   
+}
+.q-content {
+    display: flex;
+    cursor: pointer;
+}

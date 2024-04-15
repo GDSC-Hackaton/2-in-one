@@ -1,0 +1,34 @@
+.event-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8; /* Light background for the container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.events-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.view-more {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth background color transition and transform */
+  border-radius: 4px; 
+}
+
+.view-more:hover {
+  background: #4b4a4a;
+  transform: scale(1.05); 
+}
+
+.view-more:active {
+  transform: scale(0.95); 
+}

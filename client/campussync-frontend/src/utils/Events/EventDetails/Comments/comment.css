@@ -1,0 +1,16 @@
+.comment-container {
+    width: 80%;
+    margin:  2% 8% ;
+    padding: 2%;
+    box-shadow: 5px 5px 2px  rgb(226, 225, 225);
+    border-radius: 10px;
+  }
+  
+  .comment-topic {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .comment-content {
+    font-size: 0.8rem;
+  }

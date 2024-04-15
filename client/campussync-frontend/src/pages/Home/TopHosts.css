@@ -1,0 +1,60 @@
+.top-event-hosts {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hosts-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 30px;
+  } 
+  
+  .event-host-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:80%; 
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .event-host-card:hover{
+    transform: scale(1.05);
+  }
+  .event-host-card:active{
+    transform: scale(0.95);
+  }
+  .event-host-card img {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover;
+  }
+  
+  
+  .host-info {
+    padding: 15px;
+    text-align: left; 
+  }
+  
+  .host-info h3 {
+    margin: 0 0 10px; 
+  }
+  
+  .view-more {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .view-more:hover {
+    background: #333;
+  }
+  

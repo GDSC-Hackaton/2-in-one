@@ -1,0 +1,50 @@
+/* HostDetail.css */
+.host-detail-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  height: 200px;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.host-detail-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.host-detail-info{
+    flex: 1;
+}
+
+.host-detail-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.host-detail-info h2 {
+  margin-bottom: 10px;
+}
+
+.follow-button {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.follow-button:hover {
+  transform: translateY(-3px);
+  /* Add a floating effect */
+}

@@ -1,0 +1,86 @@
+.navbar {
+  width: 100vw;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* Light background for a clean look */
+  transition: all 0.3s ease-in-out;
+}
+
+.footer {
+  width: 100vw;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+  background-color: #f8f9fa; /* Slightly different background for contrast */
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-logo {
+  width: 130px;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navitem {
+  display: inline-block;
+  margin: 15px;
+  font-size: 16px; /* Adjust font size */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant font */
+  color: #181717; /* Darker text for better readability */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navitem:hover {
+  color: #555657; /* Classy blue for hover effect */
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for a cleaner look */
+  transform: scale(1.05);
+}
+.navitem:active {
+  color: #555657; /* Classy blue for hover effect */
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for a cleaner look */
+  transform: scale(0.95);
+}
+
+.navbar-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid #007bff; /* Add a border for a more defined profile image */
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.footer-logo {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+i {
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+  color: #333333; /* Match icon color with text */
+}
+
+i:hover {
+  transform: scale(1.2);
+  color: #636464; /* Classy blue for hover effect */
+}
+
+  

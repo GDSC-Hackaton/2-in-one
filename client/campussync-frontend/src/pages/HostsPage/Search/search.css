@@ -1,0 +1,48 @@
+.search-container input {
+  border: none;
+  width: 80%;
+  height: 75px;
+  font-size: 20px;
+  color: rgb(161, 158, 158);
+  padding: 0px;
+  padding-left: 2%px;
+  margin-bottom: 10px;
+  font-family: "Trebuchet MS";
+}
+
+.search-container input:focus {
+  outline: none;
+}
+
+.search-container button {
+  width: 15%;
+  height: 40px;
+  background-color: transparent;
+  color: rgb(80, 79, 79);
+  box-shadow: 0 5px 10px -2px black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+  border: none;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+  color: #000; /* Black text color on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-container button:focus {
+  background-color: #f0f0f0; /* Light gray background when focused */
+  color: #000; /* Black text color when focused */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
